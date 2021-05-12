@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*
+   Final Project
+   Taste the World
+   Style Sheet
+   
+   Author: Julie M. Smith
+   Date: November 19, 2019
+  
+   Filename:  layoutstyles.css
+
+*/
+
+p {
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}

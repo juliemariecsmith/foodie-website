@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!--
+      Final Project
+      Taste the World
+      Author: Julie M. Smith
+      Date:   November 19, 2019
+
+      Filename:   form.html
+   -->
+
+<head>
+<meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Taste the World</title>
+   <link href="../css/smithjulie_styles.css" rel="stylesheet" media="all" />
+   <script src="../resources/slider.js"></script>
+</head>
+
+<body>
+  <header>
+    <img id="world" src="../images/world.jpg" alt="world"/>
+    <h1> Taste the World </h1>
+    <nav> 
+         <a id="navicon" href="#"><img src="../images/navicon.png" alt="" /></a>
+         <ul>
+            <li><a href="ttw_home.html">HOME</a></li>
+            <li><a href="asia.html">ASIA</a></li>
+            <li><a href="africa.html">AFRICA</a></li>
+            <li><a href="sam.html">SOUTH AMERICA</a></li>
+            <li><a href="nam.html">NORTH AMERICA</a></li>
+         </ul>
+      </nav>
+ </header>
+  
+<form id="contactForm" action="submit.html">
+  
+ <fieldset id="customer">
+  <legend> Tell me about yourself</legend>
+  <div class="formRow">
+  Name
+  <input name="firstLast" id="firstLast" type="text"/>
+  </div>
+  <div class="formRow">
+  Email
+  <input name="email" id="email" type="text"/>
+  </div>
+ </fieldset>
+ 
+ <fieldset id="restaurant">
+  <legend> Tell me about your favorite restaurant</legend>
+  <div class="formRow">
+  Name of restaurant
+  <input name="restName" id="restName" type="text"/>
+  </div>
+  <div class="formRow">
+  Restaurant's website
+  <input name="website" id="website" type="text"/>
+  </div>
+  <div class="formRow">
+  Which part of town is it in?
+  <select name="area">
+   <option value="north"> Northern suburbs </option>
+   <option value="central"> Central Austin </option>
+   <option value="east"> Eastern suburbs </option>
+   <option value="south"> Southern suburbs </option>
+   <option value="west"> Western suburbs </option>
+  </select>
+  </div>
+  
+  <div class="formRow">
+  When did you visit?
+  <input name="date" id="date" type="date"/>
+  </div>
+  <div class="formRow">
+  What was the price for a meal for one person? (include drinks, tax, tip) 
+  <br/>
+  <span id="mealCost">$$$</span><br>
+  <input type="button" value="-" onClick="subtract_one()">
+  1<input type="range" min="1" max="100" step="1" name="price" onchange="show_value(this.value)"> 100 
+  <input type="button" value="+" onClick="add_one();">
+  <br/>
+  </div>
+  </fieldset>
+ 
+ <div id="btn">
+  <input class="buttons" type="submit" value="SEND" />
+  <input class="buttons" type="reset" value="ERASE" />
+ </div>
+
+</form>
+  
+  <footer>
+   <p id="name"> Julie M. Smith </p>
+   <p> <a href="mailto:jms@gmail.com">email</a> or <a href="tel:1234567890"> call</a></p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,486 @@
+@charset "utf-8";
+
+/*
+   Final Project
+   Taste the World
+   Style Sheet
+   
+   Author: Julie M. Smith
+   Date: November 19, 2019
+  
+   Filename:  smithjulie_styles.css
+
+*/
+
+
+
+
+/* HTML and Body styles */
+
+html {
+  font-family: candara;
+}
+
+a:visited {
+  color: #5DADE2;
+}
+
+a:link {
+  color: #5DADE2;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  padding: 3%;
+  -webkit-box-shadow: 0px 0px 20px 62px rgba(214,234,248,1);
+   box-shadow: 0px 0px 20px 62px rgba(214,234,248,1);
+}
+
+#main, #submitter {
+  color: #5DADE2;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+
+/* Header styles */
+
+#world {
+   width: 100%;
+   max-height: 200px;
+}
+
+h1 {
+   text-align: center;
+   color: #5DADE2;
+   text-shadow: #93c8ec 15px 15px 20px ;
+   font-size: 6em;
+   line-height: 80%;
+}
+
+
+/* Navigation list styles */
+
+a#navicon {
+  display: none;
+  }
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   margin-top: -2em;
+   text-align: center;
+
+}
+
+li a {
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #5DADE2;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+li {
+  display: inline;
+}
+
+a:hover {
+   color: #13496c;
+   text-shadow: 2px 2px 4px #B3B6B7;
+}
+
+a {
+   text-decoration: none;
+}
+
+
+/* Main Formatting styles */
+
+.co_name {
+  font-size: 4em;
+  letter-spacing: 6px;
+  word-spacing: 1.4px;
+  color: #5DADE2; 
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+#formTitle {
+  font-size: 2em;
+  text-transform: none;
+}
+
+.click {
+  color: #5DADE2;
+  display: block;
+  margin-top: 3em;
+  margin-left: 8em;
+  margin-bottom: -3em;
+}
+
+
+/* HOME PAGE */
+
+#gallery {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+#gallery figure {
+  display: inline-block;
+  padding-bottom: 2em;
+}
+
+.galfig {
+  text-align: center;
+}
+
+.galpic {
+  flex-basis: 80px;
+  flex-grow: 1;
+  height: 10em;
+  width: auto;
+}
+
+
+/* ASIA PAGE */
+
+#worldMap {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 5%;
+}
+
+#asiadir {
+  padding-bottom: 6em;
+}
+
+.cos {
+  color: #5DADE2;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+.foodPics {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  height: auto;
+  opacity: 0.4;
+  background-color: #a8d3f0;
+  box-shadow: inset 0px 0px 40px 20px white;
+}
+
+
+/* AFRICA PAGE */
+
+video {
+  display: block;
+  margin: 10px auto;
+  width: 90%;
+  padding-bottom: 10%;
+}
+
+#africaIntro  {
+  color: #5DADE2;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+.africanLinks {
+  color: #5DADE2;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  font-size: 1.6em;
+}
+
+
+
+/* NORTH AMERICA PAGE */
+
+#naFood {
+  clear: both;
+  content: "";
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 5%;
+  grid-row-gap: 5%;
+  padding-bottom: 10%;
+  }
+  
+#naFood {
+  clear: both;
+  padding-top: 3em;
+}
+
+.col {
+  float: left;
+  }
+  
+.col {
+  width: 100%
+}
+
+figcaption {
+  padding-top: .5em;
+}
+  
+#naFood img {
+  width: 70%;
+  height: auto;
+  align-content: center;
+}
+
+figcaption {
+  color: #5DADE2; 
+}
+
+
+/* LINK REFERENCE PAGE */
+
+#linksTable {
+  color: #1b6698;
+  width: 80%;
+  border-style: hidden;
+  padding: 1em;
+  margin-left:auto; 
+  margin-right:auto;
+  padding-bottom: 10%;
+}
+
+#linksTable a {
+  color: white;
+}
+
+#linksTable a:hover {
+  color: #0f3a57;
+}
+
+#firstc {
+  background-color: #d4e9f7;
+}
+
+#secondc {
+  background-color: #a8d3f0;
+}
+
+#thirdc {
+  background-color: #7dbde8;
+}
+
+td {
+  text-align: center;
+}
+
+th, td {
+  padding: 1em;
+}
+
+th {
+  font-size: 1.3em;
+}
+
+
+
+/* FORM PAGE */
+
+#btn {
+  padding-bottom: 5%;
+}
+
+.formRow {
+  margin: 1.5em;
+}
+
+legend {
+  font-size: 1.6em;
+}
+
+fieldset {
+  margin-bottom: 2em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#contactForm {
+  margin-top: 2em;
+}
+
+#mealCost {
+  font-size: 1.5em;
+  margin-left: 3em;
+  color: #4887b1;
+}
+
+.buttons {
+  text-align: center;
+  background-color: #4887b1;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-radius: 15%;
+}
+
+#btn {
+  text-align: center;
+}
+
+
+
+/* Description List Styles */
+
+dl {
+	margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5em;
+  color: white;
+}
+
+.modList dt
+{
+	margin-left: 10%;
+  margin-right: 10%;
+  color: #4887b1;
+}
+
+.modList dd {
+  margin-left: 20%;
+}
+
+dt {
+	display: block;
+  color: white;
+  font-size: 2em;
+	margin: auto;
+	font-weight: bold;
+	border-bottom: 2px double #4887b1;
+  padding-top: 3px;
+}
+
+dt a {
+  color: #4887b1;
+}
+
+dd {
+  color: #5DADE2;
+	display: block;
+	margin: 0 0 3% 3%;
+	text-indent: 0;
+  font-size: 1.2em;
+}
+
+dl {
+  padding-bottom: 2em;
+}
+
+
+
+/* Footer styles */
+
+footer {
+  text-align: center;
+  background-color: #bedef4;
+  color: #13496c;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+footer a:link {
+  color: #13496c;
+}
+
+footer > p > a:hover {
+   color: white;
+}
+
+footer a:visited {
+   color: #13496c;
+}
+
+footer::after {
+  clear: both;
+  content: "";
+  display: table;
+  }
+
+
+
+/* ===============================
+   Mobile Styles: 0px to 640px 
+   ===============================
+*/
+
+@media only screen and (max-width: 640px) {
+  
+  .formRow {
+    margin: auto;
+    margin-bottom: 10%;
+  }
+  
+   fieldset {
+    margin: auto;
+  }
+  
+  .co_name {
+    font-size: 2em;
+  }
+  
+  a#navicon {
+    display: block;
+    }
+    
+  nav ul {
+    display: none;
+    }
+      
+  a#navicon:hover+ul, nav ul:hover {
+      display: block;
+      content: "\A";
+      white-space: pre-line;
+      }
+  
+  .click {
+    margin: auto;
+    padding-top: 1em;
+    }
+
+  #indian {
+    padding-top: 2em;
+    }
+
+  #linksTable td:nth-of-type(2) {
+    display: none;
+    }
+
+  #linksTable th:nth-of-type(2) {
+    display: none;
+    }
+  
+  #worldMap, #asiadir {
+    display: none;
+  }
+}
+   
+
